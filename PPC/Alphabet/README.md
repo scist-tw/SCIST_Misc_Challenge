@@ -4,7 +4,9 @@
 ```
 Author : Curious
 
-`nc lab.scist.org ???`
+---
+
+`nc lab.scist.org 33345`
 ```
 
 ---
