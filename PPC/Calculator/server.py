@@ -1,6 +1,8 @@
 import random, sys
 
-msg = '''===== Welcome to the Calculator Game =====
+from secret import flag
+
+msg = '''====== Welcome To The Calculator Game ======
 We got some equations here, but the operator is missing. Can you help us?
 '''
 
@@ -8,7 +10,6 @@ def main():
     print(msg)
 
     operator_list = ['+','-','*']
-    
     for i in range(100):
         print(f'----- wave {i + 1}/100 -----')
         operator_idx = random.randint(0, 2)
@@ -23,7 +24,7 @@ def main():
             print('Your math is bad...')
             sys.exit()
 
-    print('flag : SCIST{RPocsDlJBUOeoCSF3fY4UXNACNxmZRTG}')
+    print(f'Flag : {flag}')
 
 try:
     main()

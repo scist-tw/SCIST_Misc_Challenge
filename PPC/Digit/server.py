@@ -1,5 +1,7 @@
 import random, sys
 
+from secret import flag
+
 digit = [
 '''
   ###   
@@ -93,7 +95,7 @@ digit = [
 '''
 ]
 
-msg = '''===== Welcome to Digit Game =====
+msg = '''====== Welcome To Digit Game ======
 Can you help me recognize some digits?
 '''
 
@@ -110,7 +112,7 @@ def main():
             print('No, Your eye is malfunctioned.')
             sys.exit()
 
-    print('flag : SCIST{Wt2aTmFvjXHmhYRQPFm8FoUwkJ6OU3Wn}')
+    print(f'Flag : {flag}')
 
 try:
     main()

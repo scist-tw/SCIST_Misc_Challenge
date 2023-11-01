@@ -1,0 +1,1 @@
+flag = 'SCIST{D3vid3...dIviD3...D1v1dE...G0t_yOu!}'

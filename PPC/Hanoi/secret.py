@@ -1,0 +1,1 @@
+flag = 'SCIST{YOU_ARE_THE_MASTER_OF_PPC!!!}'

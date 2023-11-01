@@ -1,9 +1,11 @@
 import random, sys
 
-msg = '''===== Welcome To PI Game =====
+from secret import flag
+
+msg = '''====== Welcome To PI Game ======
 Give me PI with certain length
 ----- Example -----
-length : 5
+Length : 5
 PI > 3.1416
 ----- Now Your Turn -----
 '''
@@ -16,13 +18,15 @@ def get_PI(length):
 
 def main():
     print(msg)
+
     for i in range(100):
         print(f'------ wave {i + 1}/100 ------')
         length = random.randint(2, len(PI) - 2)
-        print(f'length = {length}')
+        print(f'Length = {length}')
         if input('PI > ') != get_PI(length):
             sys.exit()
-    print('flag : SCIST{STv2QBspLzcuCTfL3kyOYEftLji0EeEJ}')
+
+    print(f'Flag : {flag}')
 
 try:
     main()

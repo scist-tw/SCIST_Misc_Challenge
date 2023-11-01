@@ -1,5 +1,4 @@
 # Welcome
-
 ## Challenge
 ```
 Author : Curious
@@ -10,7 +9,11 @@ Author : Curious
 ```
 
 ---
+## Files
+- `server.py`
+
+---
 ## Flag
 ```
-SCIST{jYznFW6xwQAqbu67XZKlRVDaTu95hJu5}
+SCIST{Nev3r_gOnN4_G1v3_y0u_uP}
 ```

@@ -1,29 +1,31 @@
 import random, sys
 
-msg = '''===== Welcome To Nrd Game =====
+from secret import flag
+
+msg = '''====== Welcome To Nrd Game ======
 Find the nth largest number for me !
 ----- Example -----
-numbers : 1 3 6 12 8 9 13 11
-nth : 2
-answer > 12
+Numbers : 1 3 6 12 8 9 13 11
+Nth : 2
+Answer > 12
 ----- Now Your Turn -----
 '''
 
 def main():
     print(msg)
 
-    num_list = [random.randint(100, 99999) for i in range(300)]
+    num_list = [random.randint(100, 99999) for _ in range(300)]
     nth = random.randint(0, 299)
-    print('numbers : ' + ' '.join(str(num) for num in num_list))
-    print(f'nth : {nth}')
+    print('Numbers : ' + ' '.join(str(num) for num in num_list))
+    print(f'Nth : {nth}')
 
-    input_num = int(input('answer > '))
+    input_num = int(input('Answer > '))
 
     num_list.sort()
     if input_num == num_list[-nth]:
-        print('SCIST{Rv3o8kX72ozW3ioZbKbyzFVTxlI7PZpL}')
+        print(f'Flag : {flag}')
     else:
-        print('Wrong Answer')
+        print('Wrong answer !')
 
 try:
     main()

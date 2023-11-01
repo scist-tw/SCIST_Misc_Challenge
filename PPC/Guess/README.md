@@ -1,5 +1,4 @@
 # Guess
-
 ## Challenge
 ```
 Author : Curious
@@ -10,7 +9,11 @@ Author : Curious
 ```
 
 ---
+## Files
+- `server.py`
+
+---
 ## Flag
 ```
-SCIST{rAuWjzyOlGmDlWx7QPzOkNThbKiBBCvi}
+SCIST{D3vid3...dIviD3...D1v1dE...G0t_yOu!}
 ```

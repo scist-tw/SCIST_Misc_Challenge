@@ -1,5 +1,7 @@
 import random, sys, string
 
+from secret import flag
+
 msg = '''===== Welcome To Hanoi Game =====
 There are three hanoi tower
 +-----+-----+-----+
@@ -21,7 +23,7 @@ Here is the final state :
 |     |     | rrr |
 |     |     |rrrrr|
 +-----+-----+-----+
-Answer : 02012102101202 (which means move the top disk to on the tower 0 to tower 2, move the top disc on tower 0 to tower 1, ...)
+Answer : 02012102101202 (which means move the top disk on tower 0 to tower 2, move the top disk on tower 0 to tower 1, ...)
 '''
 char_set = string.ascii_letters + string.digits
 
@@ -91,10 +93,10 @@ def main():
         for i in range(0, len(ans), 2):
             init_state.move_once(ans[i: i + 2])
         assert init_state == fin_state
-    print('flag : SCIST{fzFPKWXznIYWhxM9pdSNEryhMoGk0uLy}')
+    print(f'Flag : {flag}')
 
 try:
     main()
 except:
-    print('Wrong answer !')
+    print('Wrong answer')
     sys.exit()

@@ -1,5 +1,4 @@
 # Count
-
 ## Challenge
 ```
 Author : Curious
@@ -10,7 +9,11 @@ Author : Curious
 ```
 
 ---
+## Files
+- `server.py`
+
+---
 ## Flag
 ```
-SCIST{SkQbMFDwrX3NNYEjVfHrXo1Qd0ALzyHi}
+SCIST{4re_y0u_m@ch1ne?!?_b3ep!_B3Ep!}
 ```

@@ -1,5 +1,4 @@
 # Hanoi
-
 ## Challenge
 ```
 Author : Curious
@@ -10,7 +9,11 @@ Author : Curious
 ```
 
 ---
+## Files
+- `server.py`
+
+---
 ## Flag
 ```
-SCIST{fzFPKWXznIYWhxM9pdSNEryhMoGk0uLy}
+SCIST{YOU_ARE_THE_MASTER_OF_PPC!!!}
 ```
