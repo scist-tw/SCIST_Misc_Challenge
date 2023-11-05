@@ -1,6 +1,8 @@
 # PI
 ## Challenge
 ```
+Timeout : 120s
+
 Author : Curious
 
 ---

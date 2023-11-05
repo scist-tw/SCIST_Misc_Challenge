@@ -1,6 +1,8 @@
 # Nth
 ## Challenge
 ```
+Timeout : 10s
+
 Author : Curious
 
 ---
