@@ -1,18 +1,3 @@
-# Guess
-## Challenge
-```
-Timeout : 120s
-
-Author : Curious
-
----
-
-`nc lab.scist.org 33343`
-```
-
----
-## Hints
-````
 二分搜尋法
 ```python
 # range_list[0] <= ans < range_list[1]
@@ -28,15 +13,4 @@ while True:
     else:
         assert guess_num == ans
         break
-```
-````
-
----
-## Files
-- `server.py`
-
----
-## Flag
-```
-SCIST{D3vid3...dIviD3...D1v1dE...G0t_yOu!}
 ```

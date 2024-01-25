@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LABNAME="PPC LAB"
+LABNAME="MISC LAB"
 
 if [[ $# == 0 ]]; then
     echo "========= $LABNAME ========="
@@ -12,16 +12,16 @@ if [[ $# == 0 ]]; then
     exit 0
 fi
 
-DOCKERNAME="ppc_lab"
+PPC_DOCKERNAME="ppc_lab"
 
 if [[ $1 == "build" ]]; then
-    docker build -t $DOCKERNAME .;
+    docker build -t $PPC_DOCKERNAME ./PPC;
 elif [[ $1 == "rebuild" ]]; then
-    docker rmi $DOCKERNAME;
-    docker build -t $DOCKERNAME .;
+    docker rmi $PPC_DOCKERNAME;
+    docker build -t $PPC_DOCKERNAME ./PPC;
 elif [[ $1 == "start" ]]; then
-    docker run -p 33340-33348:33340-33348 --name $DOCKERNAME -d $DOCKERNAME;
+    docker run -p 50000-50008:50000-50008 --name $PPC_DOCKERNAME -d $PPC_DOCKERNAME;
 elif [[ $1 == "stop" ]]; then
-    docker stop $DOCKERNAME;
-    docker rm $DOCKERNAME;
+    docker stop $PPC_DOCKERNAME;
+    docker rm $PPC_DOCKERNAME;
 fi

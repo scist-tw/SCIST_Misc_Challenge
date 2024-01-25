@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Welcome", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Welcome/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Nev3r_gOnN4_G1v3_y0u_uP}", 
+        "filename": "server.py", 
+        "file": "PPC/Welcome/server.py"
+    }, 
+    {
+        "name": "Count", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Count/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{4re_y0u_m@ch1ne?!?_b3ep!_B3Ep!}", 
+        "filename": "server.py", 
+        "file": "PPC/Count/server.py"
+    }, 
+    {
+        "name": "Nth", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Nth/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Y0u_gO7_numb3r_n7h_Numb3r_*_*}", 
+        "filename": "server.py", 
+        "file": "PPC/Nth/server.py"
+    }, 
+    {
+        "name": "Guess", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Guess/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{D3vid3...dIviD3...D1v1dE...G0t_yOu!}", 
+        "filename": "server.py", 
+        "file": "PPC/Guess/server.py", 
+        "hints": "PPC/Guess/Hints.md"
+    }, 
+    {
+        "name": "Calculator", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Calculator/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{I_d0n't_Adm1t_th47_yOu_4r3_v3rY_go0D_@t_ma7h}", 
+        "filename": "server.py", 
+        "file": "PPC/Welcome/server.py"
+    }, 
+    {
+        "name": "Alphabet", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Alphabet/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{I$n't_7h1s_t0o_3a5Y_???}", 
+        "filename": "server.py", 
+        "file": "PPC/Alphabet/server.py"
+    }, 
+    {
+        "name": "Digit", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Digit/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Y0u_eyE5_4r3_RELLY_go0d!}", 
+        "filename": "server.py", 
+        "file": "PPC/Digit/server.py"
+    }, 
+    {
+        "name": "PI", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/PI/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{Le7_m3_PI_P1_mY_h@nd5_f0R_y0u_^^}", 
+        "filename": "server.py", 
+        "file": "PPC/PI/server.py"
+    }, 
+    {
+        "name": "Hanoi", 
+        "category": "PPC", 
+        "value": 500, 
+        "description": "PPC/Hanoi/README.md", 
+        "type": "standard", 
+        "state": "visible", 
+        "flag": "SCIST{YOU_ARE_THE_MASTER_OF_PPC!!!}", 
+        "filename": "server.py", 
+        "file": "PPC/Hanoi/server.py"
+    }
+]
