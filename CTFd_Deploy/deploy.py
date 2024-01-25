@@ -4,8 +4,8 @@ from tqdm import tqdm
 import requests as req
 import json
 
-ACCESS_TOKEN = 'ctfd_4d45d230e023724480776c259df7daec127d482e2a8f932f5f12276e162a1a29'
-API_URL = 'http://localhost/api/v1/'
+ACCESS_TOKEN = '???'
+API_URL = '???' + 'api/v1/'
 
 data = json.loads(open('data.json').read())
 
